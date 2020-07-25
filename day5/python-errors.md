@@ -1,5 +1,6 @@
 
-# Python exceptions encountered so far in the course.
+# Python exceptions i received so far in the course.
+
 ### a)  Syntax Error
 ```
 >>> print "hi"
@@ -26,7 +27,9 @@ Traceback (most recent call last):
 TypeError: 'tuple' object does not support item assignment
 >>>
 ```
-This TypeError happens when an attempted operation on an object is not supported, and is not meant to be. In this case we use tuple which is immutable.
+This TypeError happens when an attempted operation on an object is not supported, and is not meant to be. 
+In the above eg we try to change an element in tuple 
+As tuple is immutable and does not support the action we specified it throw TypeError.
 
 ```
 >>> sample_set = {1,2,5,7,3}
@@ -36,7 +39,8 @@ Traceback (most recent call last):
 TypeError: 'set' object is not subscriptable
 >>>
 ```
-This TypeError is indicating that the function or method is not subscriptable, means they are not indexable like a list. Here we use set,set does not allow you to call using index.
+This TypeError is indicating that the function or method is not subscriptable, means they are not indexable like a list. 
+Here we use set,set does not allow you to call elements using index.
 
 ### c) ValueError
 
@@ -48,7 +52,8 @@ Traceback (most recent call last):
 ValueError: invalid literal for int() with base 10: 'Hello'
 >>>
 ```
-Here ValueError means function's(int) argument(a) has an inappropriate type,ie you cannot convert a string to an integer type.
+Here ValueError means function's(int) argument(a) has an inappropriate type
+ie you cannot convert a string to an integer type.
 
 ### d) KeyError
 
@@ -71,7 +76,8 @@ NameError: name 'sample_list' is not defined
 >>>
 ```
 
-NameError is raised when a local or global name is not found. In the above eg sample_list is not defined,hence the error.
+NameError is raised when a local or global name is not found. 
+In the above eg sample_list is not defined,hence the error.
 
 ### f) IndexError
 
