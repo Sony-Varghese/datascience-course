@@ -1,5 +1,5 @@
 
-# Some Python errors encountered so far in the course.
+# Python exceptions encountered so far in the course.
 ### a)  Syntax Error
 ```
 >>> print "hi"
